@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+:root{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.top-page{
+    background-color: #83e5fb;  
+    .container{
+        max-width: 100rem;
+        margin: auto;
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 0.5rem;
+            ul{
+                li{
+                    display: inline-block;
+                    margin-right: 2rem;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 1.4rem;
+                    }
+                }
+                  
+            }
+            .right-header{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .search-box{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border: 1px solid black;
+                    gap: 0.5em;
+                    border-radius: 10px;
+                    padding: 0.1em 0.5em;
+                    margin-right: 1rem;
+                    input{
+                       background: transparent;
+                        border: none;
+                        outline: none;
+                        font-size: 1rem; 
+                    }
+                }
+                .cart-icon{
+                    margin: 0.5rem;
+                }
+            }
+        }
+        .row-1{
+            display: flex;
+            align-items: center;
+            .col-2{
+                flex: 50%;
+                .picture-1{
+                    width: 18rem;
+                    height: 18rem;
+                    background-color: #d7d7d7;
+                    border-top-right-radius: 20%;
+                    border-bottom-left-radius: 20%;
+                    overflow: hidden;
+                    img{
+                        width: inherit;
+                        height: inherit;
+                    }
+                }
+                .picture-2{
+                    width: 18rem;
+                    height: 18rem;
+                    background-color: #d7d7d7;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    img{
+                        width: inherit;
+                        height: inherit;
+                    }
+                }
+                .picture-3{
+                    width: 18rem;
+                    height: 18rem;
+                    background-color: #d7d7d7;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    img{
+                        width: inherit;
+                        height: inherit;
+                    }
+                }
+                .picture-4{
+                    width: 18rem;
+                    height: 18rem;
+                    background-color: #d7d7d7;
+                    border-top-left-radius: 20%;
+                    border-bottom-right-radius: 20%;
+                    overflow: hidden;
+                    img{
+                        width: inherit;
+                        height: inherit;
+                    }
+                }
+                h1{
+                    font-size: 5rem;
+                    line-height: 6rem;
+                    margin-bottom: 2rem;
+                }
+                p{
+                    margin-bottom: 3rem;
+                }
+                a{
+                    background-color: black;
+                    color: white;
+                    text-decoration: none;
+                    padding: 0.5em;
+
+                }
+            }
+            .right{
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-content: center;
+                gap: 5rem;
+                padding: 5em 0;
+                
+            }
+        }
+        
+        
+    }
+
+}
+
